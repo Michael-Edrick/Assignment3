@@ -52,8 +52,8 @@ func WriteJson(dataStatus dataStruct.DataStatus){
 	for{
 		dataStatus.StatusWater = "aman"
 		dataStatus.StatusWind = "bahaya"
-		dataStatus.DataStatus.Water = rand.Intn(20)
-		dataStatus.DataStatus.Wind = rand.Intn(20)
+		dataStatus.DataStatus.Water = rand.Intn(100)
+		dataStatus.DataStatus.Wind = rand.Intn(100)
 
 		if dataStatus.DataStatus.Water < 5{
 			dataStatus.StatusWater = "aman"
